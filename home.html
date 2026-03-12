@@ -79,21 +79,108 @@
         font-size: 50px;
         color: white;
        }
-       .t1{
+       .stats{
+        display: flex;
+        margin-left: 180px;
+        text-align: center;
+        gap: 150px;
         position: relative;
-        left: -150px;
+        top: -330px;
+       }
+       .box{
+        border: 2px solid #ebbaba;
+        background-color:#ebbaba;
+        padding: 15px;
+        margin: 20px;
+        width: 200px;
+        position: relative;
+       }
+       .box h3{
+        color: #ff4a4a;
+        position: relative;
+        left: -2px;
+        top: 7px;
+        font-size: 38px;
+        margin-right: 10px;
+       }
+       
+      .dot{
+        width: 35px;
+        height: 35px;
+       background: #ff4a4a;
+       position: absolute;
+       top: -15px;
+       left: 180px;
+       border-radius: 50%;
+      }
+      .best{
+        position: relative;
+        top: -100px;
+      }
+      /* .one{
+        position: relative;
         top: 40px;
       }
-      .boxes{
+      .two{
         position: relative;
-        bottom: 300px;
-      }
-      
+        top: 40px;
+       }
+       .three{
+        position: relative;
+        top: 40px;
+       }
+       .four{
+        position:relative;
+        top: 40px;
+       }
+       .five{
+        position: relative;
+        top: 40px;
+       } */
+        .image{
+          position: relative;
+          left: -60px;
+        }
+        .house{
+          position: relative;
+          top: -150px;
+          left: 850px;
+        }
+        .appart{
+          color:white;
+          border: 2px solid red;
+          background-color: red;
+          padding: 8px;
+        }
+        .villa{
+          color: white;
+          border: 2px solid black;
+          background-color: black;
+          padding: 9px;
+        }
+        .pent{
+          color: white;
+          border: 2px solid black;
+          background-color: black;
+          padding: 6px;
+        }
+        .best{
+          position: relative;
+          top: 1px;
+        }
+       .deal{
+        position: relative;
+        top: -250px;
+       }
+       .house{
+        position: absolute;
+        top: 70px;
+       }
     </style>
 </head>
 <body >
     <div class="c">
-   <a href="#"><img class="a" src="../html/images/email-icon.png " alt="Email Icon">tejaswar626@gmail.com</a>
+   <a href="#"><img class="a" src="./images/email-icon.png" alt="Email Icon">tejaswar626@gmail.com</a>
   <i class="fa-brands fa-facebook-f top"></i>
   <i class="fa-brands fa-twitter "></i>
   <i class="fa-brands fa-instagram "></i>
@@ -117,7 +204,7 @@
 </nav>
 
 <div>
-<img src="../html/images/banner-01.jpg" style="width: 100%;" >
+<img src="./images/banner-01.jpg" style="width: 100%;" >
     <p class="place">Toronto,</p><p class="plac">Canada</p>
       <p class="text"><b>HURRY!<br> GET THE BEST <br> VILLA FOR YOU</p></b>
     </div>
@@ -125,8 +212,8 @@
       <div class=" p-4">
   <div class="row align-items-center" >
     <div class="col-md-4">
-      <img src="../html/images/featured.jpg">
-      <img src="../html/images/featured-icon (1).png " class="z">
+      <img src="./images/featured.jpg">
+      <img src="./images/featured-icon (1).png " class="z">
     </div>
     <div class="col-md-4">
       <h5 class="text-danger">|FEATURED</h5>
@@ -156,31 +243,205 @@
       </div>
 </div>
  <div class="x mt-5">
-  <img src="../html/images/video-bg.jpg" style="width: 100%;">
+  <img src="./images/video-bg.jpg" style="width: 100%;">
   <p class="video">|VIDEO View</p>
       <p class="view"><b>Get Closer View&<br> Different Feeling</p></b>
   
 </div>
 <div>
-  <a href="#"><img src="../html/images/video-frame.jpg" class="img4"></a>
+  <a href="#"><img src="./images/video-frame.jpg" class="img4"></a>
   <i class="fa-regular fa-circle-play"></i>
-</div>
-<div class="container text-center boxes">
-  <div class="row">
-    <div class="col border" style="border-radius: 20px;">
-      <h3 class="t1">34</h3>
-      <p>Buildings<br>Finished Now</p>
+</div><br>
+<div class="stats">
+  <div class="box">
+    <div class="dot"></div>
+       <div class=" d-flex justify-content-center">
+      <h3>34</h3>
+      <p>Buildings <br>Finished Now</p>
     </div>
-    <div class="col">
+  </div>
+  <div class="box">
+    <div class="dot"></div>
+      <div class=" d-flex justify-content-center">
       <h3>12</h3>
-      <p>Years<br>Experience</p>
+      <p>Years <br>Experience</p>
     </div>
-    <div class="col">
+  </div>
+  <div class="box">
+    <div class="dot"></div>
+       <div class=" d-flex justify-content-center">
       <h3>24</h3>
-      <p>Awwards<br>Won 2023</p>
+      <p style="text-align: left;">Awwards <br>Won 2023</p>
     </div>
   </div>
 </div>
-<div>hi</div>git
+<div class=" container deal">
+      <div class=" p-4">
+    <h6 class="best" style="color: #e13f3f;"><b>|BEST DEALS</b></h6>
+    <h1><b>Find Your Best Deal<br>Right Now</b></h1>
+    <div class="house d-flex gap-5 ">
+    <h6 class="appart">Appartment</h6>
+    <h6 class="villa">Villa House</h6>
+    <h6 class="pent">Penthouse</h6></div>
+    <div class="row align-items-center " >
+ <div class="card col-md-3 shadow-lg ">
+      <div class="mb-2 p-2 d-flex justify-content-between border-bottom ">
+        <p class=" text-muted">TotalFlot Space</p>
+        <p ><b>185 m2</b></p>
+      </div>
+       <div class="mb-2 p-2 d-flex justify-content-between border-bottom" >
+        <p class=" text-muted">Floor Number</p>
+        <p><b>26th</b></p>
+      </div> 
+      <div class="mb-2 p-2 d-flex justify-content-between border-bottom">
+        <p class=" text-muted">Number Of Rooms</p>
+        <p><b>4</b></p>
+      </div>
+       <div class="mb-2 p-2 d-flex justify-content-between">
+        <p class=" text-muted">Parking Available</p>
+        <p ><b>Yes</b></p>
+        </div>
+        <div class="mb-2 p-2 d-flex justify-content-between">
+        <p class=" text-muted">Payment process</p>
+        <p><b>Bank</b></p>
+      </div>
+    </div>
+    <div class="ms-5 col-md-5">
+      <img src="./images/property-05.jpg" width="550px">
+    </div>
+    <div class=" ms-5 col-md-3">
+    <h5>Extra Info About Property</h5><br>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ipsa cum? At deserunt temporibus, a reprehenderit qui nesciunt similique. Tempore quos dolorum quisquam illum magnam repellat voluptatum exercitationem autem ad?</p><br>
+    <div class="text-center mt-3">
+            <button class="btn btn-dark rounded-pill">Schedule a Visit</button>
+          </div>
+  </div>
+  </div><br><br><br><br><br><br>
+  <div class="container mt-5">
+    <h6 class="text-center " style="color: rgb(245, 74, 1);">|PROPERTIES</h6><br>
+    <h2 class="text-center">We Provide The Best<br>Property You Like</h2><br><br>
+  <div class="row">
+    <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="./images/property-01.jpg" class="card-img-top image1">
+        <div class="card-body">
+          <div class="d-flex justify-content-between">
+            <h6 class="luxury">Luxury Villa</h6>
+            <h5 style="color: rgb(255, 106, 0);">$2.264.000</h5></div>
+            <p><b>18 New Street Miami,OR 97219</b></p>
+            <div class="row small text-muted">
+            <p class="col-4">Bathrooms:<b>8</b></p>
+            <p class="col-4">Bathrooms:<b>8</b></p>
+            <p class="col-4">Area:<b>545m2</b></p>
+            <p class="col-4">Floor:<b>3</b></p>
+            <p class="col-5">Parking:<b>6 spots</b></p></div>
+            <div class="text-center mt-3">
+            <button class="btn btn-dark rounded-pill">Schedule a Visit</button>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="./images/property-02.jpg" class="card-img-top image1">
+        <div class="card-body">
+          <div class="d-flex justify-content-between">
+            <h6 class="luxury">Luxury Villa</h6>
+            <h5 style="color: rgb(255, 106, 0);">$1.180.000</h5></div>
+            <p><b>54 Mid Street Florida,OR 27001</b></p>
+            <div class="row small text-muted">
+            <p class="col-4">Bathrooms:<b>6</b></p>
+            <p class="col-4">Bathrooms:<b>5</b></p>
+            <p class="col-4">Area:<b>450m2</b></p>
+            <p class="col-4">Floor:<b>3</b></p>
+            <p class="col-5">Parking:<b>8 spots</b></p></div>
+            <div class="text-center mt-3">
+            <button class="btn btn-dark rounded-pill">Schedule a Visit</button>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="./images/property-03.jpg" class="card-img-top image1">
+        <div class="card-body">
+          <div class="d-flex justify-content-between">
+            <h6 class="luxury">Luxury Villa</h6>
+            <h5 style="color: rgb(255, 106, 0);">$1.460.000</h5></div>
+            <p><b>26 Old Street Miami,OR 38540</b></p>
+            <div class="row small text-muted">
+            <p class="col-4">Bathrooms:<b>5</b></p>
+            <p class="col-4">Bathrooms:<b>4</b></p>
+            <p class="col-4">Area:<b>225m2</b></p>
+            <p class="col-4">Floor:<b></b>3</p>
+            <p class="col-5">Parking:<b>10 spots</b></p></div>
+            <div class="text-center mt-3">
+            <button class="btn btn-dark rounded-pill">Schedule a Visit</button>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="./images/property-04.jpg" class="card-img-top image1">
+        <div class="card-body">
+          <div class="d-flex justify-content-between">
+            <h6 class="luxury">Luxury Villa</h6>
+            <h5 style="color: rgb(255, 106, 0);">$584.500</h5></div>
+            <p><b>12 New Street Miami,OR 12650</b></p>
+            <div class="row small text-muted">
+            <p class="col-4">Bathrooms:<b>4</b></p>
+            <p class="col-4">Bathrooms:<b>3</b></p>
+            <p class="col-4">Area:<b>125m2</b></p>
+            <p class="col-4">Floor:<b>25th</b></p>
+            <p class="col-5">Parking:<b>2 cars</b></p></div>
+            <div class="text-center mt-3">
+            <button class="btn btn-dark rounded-pill">Schedule a Visit</button>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="./images/property-05.jpg" class="card-img-top image1">
+        <div class="card-body">
+          <div class="d-flex justify-content-between">
+            <h6 class="luxury">Luxury Villa</h6>
+            <h5 style="color: rgb(255, 106, 0);">$925.600</h5></div>
+            <p><b>34 Beach Street miami,OR 42680</b></p>
+            <div class="row small text-muted">
+            <p class="col-4">Bathrooms:<b>4</b></p>
+            <p class="col-4">Bathrooms:<b>4</b></p>
+            <p class="col-4">Area:<b>180m2</b></p>
+            <p class="col-4">Floor:<b>38th</b></p>
+            <p class="col-5">Parking:<b>2 cars</b></p></div>
+            <div class="text-center mt-3">
+            <button class="btn btn-dark rounded-pill">Schedule a Visit</button>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="./images/property-06.jpg" class="card-img-top image1">
+        <div class="card-body">
+          <div class="d-flex justify-content-between">
+            <h6 class="luxury">Luxury Villa</h6>
+            <h5 style="color: rgb(255, 106, 0);">$450.000</h5></div>
+            <p><b>22 New Street Portland,OR 16540</b></p>
+            <div class="row small text-muted">
+            <p class="col-4">Bathrooms:<b>3</b></p>
+            <p class="col-4">Bathrooms:<b>2</b></p>
+            <p class="col-4">Area:<b>165m2</b></p>
+            <p class="col-4">Floor:<b>26th</b></p>
+            <p class="col-5">Parking:<b>3 cars</b></p></div>
+            <div class="text-center mt-3">
+            <button class="btn btn-dark rounded-pill">Schedule a Visit</button>
+          </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
 </body>
 </html>
