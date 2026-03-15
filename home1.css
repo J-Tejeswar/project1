@@ -1,0 +1,185 @@
+ .a{
+            width: 20px;
+        }
+        .top{margin-left: 1220px;
+        }
+      .nav-link:hover{
+            color: rgb(187, 14, 14);
+        }
+        .c{
+           z-index: 1000px;
+        }
+        .navbar-nav{
+            margin-left: 600px;
+            gap: 70px;
+        }
+        .place{
+          position:absolute;
+          top: 250px;
+          left: 350px;
+          color:black;
+          background-color: white;
+          border: 10px solid white;
+        }
+        .plac{
+          position:absolute;
+          top: 250px;
+          left: 420px;
+          color:rgb(248, 19, 19);
+          background-color: white;
+          border: 10px solid white;
+        }
+        .text{
+          position:absolute;
+          top: 350px;
+          left: 350px;
+          color:white;
+          font-size: 50px;
+        }
+        .z{
+          position:absolute;
+          border:20px solid red;
+          border-radius: 40px;
+          background-color: red;
+          left: 100px;
+          top: 1380px;
+          
+        }
+        .video{
+          position:relative;
+          top: -400px;
+          left: 700px;
+          color: red;
+        }
+        .view{
+          position:relative;
+          top: -400px;
+          left: 630px;
+          font-size: 35px;
+          color: white;
+        }
+        .img4{
+          position:relative;
+          top: -350px;
+          left: 230px;
+        }
+       .fa-circle-play{
+        position: relative;
+        top: -300px;
+        left: -350px;
+        font-size: 50px;
+        color: white;
+       }
+       .stats{
+        display: flex;
+        margin-left: 180px;
+        text-align: center;
+        gap: 150px;
+        position: relative;
+        top: -330px;
+       }
+       .box{
+        border: 2px solid #ebbaba;
+        background-color:#ebbaba;
+        padding: 15px;
+        margin: 20px;
+        width: 200px;
+        position: relative;
+       }
+       .box h3{
+        color: #ff4a4a;
+        position: relative;
+        left: -2px;
+        top: 7px;
+        font-size: 38px;
+        margin-right: 10px;
+       }
+       
+      .dot{
+        width: 35px;
+        height: 35px;
+       background: #ff4a4a;
+       position: absolute;
+       top: -15px;
+       left: 180px;
+       border-radius: 50%;
+      }
+      .best{
+        position: relative;
+        top: -100px;
+      }
+        .image{
+          position: relative;
+          left: -60px;
+        }
+        .house{
+          position: relative;
+          top: -150px;
+          left: 850px;
+        }
+        .appart{
+          color:white;
+          border: 2px solid red;
+          background-color: red;
+          padding: 8px;
+        }
+        .villa{
+          color: white;
+          border: 2px solid black;
+          background-color: black;
+          padding: 9px;
+        }
+        .pent{
+          color: white;
+          border: 2px solid black;
+          background-color: black;
+          padding: 6px;
+        }
+        .best{
+          position: relative;
+          top: 1px;
+        }
+       .deal{
+        position: relative;
+        top: -250px;
+       }
+       .house{
+        position: absolute;
+        top: 70px;
+       }
+       .contact{
+        position: relative;
+        top: -150px;
+       }
+       .p{
+        position: relative;
+        top: -600px;
+       }
+       .class{
+        position: relative;
+        top: -500px;
+        right: -950px;
+        padding: 25px;
+       }
+       .map{
+        position: relative;
+        top: -1000px;
+        left: 150px;
+       }
+       .properties{
+        color: white;
+        position: relative;
+        top: -270px;
+        left: 650px;
+        
+    }
+       .home{
+        background-color: white;
+        color: black;
+    }
+    .all{
+        color: white;
+        position: relative;
+        top: -60px;
+        left: 500px;
+    }
