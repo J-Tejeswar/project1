@@ -183,3 +183,12 @@
         top: -60px;
         left: 500px;
     }
+    .single{
+      position: relative;
+      left: -70px;
+    }
+    .deal{
+      position: relative;
+      top: 100px;
+    }
+  
