@@ -155,6 +155,10 @@
         position: relative;
         top: -600px;
        }
+       .us{
+        position: relative;
+        left: 150px;
+       }
        .class{
         position: relative;
         top: -500px;
@@ -164,7 +168,7 @@
        .map{
         position: relative;
         top: -1000px;
-        left: 150px;
+        left: 50px;
        }
        .properties{
         color: white;
@@ -191,4 +195,12 @@
       position: relative;
       top: 100px;
     }
-  
+    .last{
+      position: relative;
+      left: -130px;
+    }
+  .us{
+    left: -20px;
+    background-color: white;
+    color: black;
+  }
